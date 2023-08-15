@@ -9,7 +9,7 @@ Kubernetes provides several built-in controllers that handle various aspects of 
 
 **Deployment Controller:** Manages the lifecycle of applications by allowing you to define rolling updates, scaling changes, and rollbacks. It uses ReplicaSets to achieve these updates seamlessly.
 
-**StatefulSet Controller: **Used for stateful applications that require stable network identifiers and persistent storage. It ensures ordered and unique deployment of pods and handles scaling and updates.
+**StatefulSet Controller:** Used for stateful applications that require stable network identifiers and persistent storage. It ensures ordered and unique deployment of pods and handles scaling and updates.
 
 **DaemonSet Controller:** Ensures that a specific pod runs on each node in the cluster. It's commonly used for monitoring, logging, and other node-specific tasks.
 
