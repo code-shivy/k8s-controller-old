@@ -20,3 +20,5 @@ Kubernetes provides several built-in controllers that handle various aspects of 
 **Namespace Controller:** Manages namespaces, which are virtual clusters within the physical Kubernetes cluster. It ensures that namespaces are created, modified, or deleted as specified.
 
 **Service Controller:** Ensures the availability and discoverability of services within the cluster. It manages the creation and deletion of virtual IPs and DNS entries for services.
+
+In this example I would be developing a K8s controller, where It would maintain 5 replicas between 5am - 10am and 2 replicas between 6PM-8PM. 
